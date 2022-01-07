@@ -22,7 +22,7 @@ body{
 
 .section-1-inside h1{
     font-size: 60px ;
-    border-left: 3px solid #FF5959;
+    border-left: 5px solid #FF5959;
     border-radius: 3px;
 }
 .link-btn{
@@ -125,9 +125,10 @@ body{
     width:60%;
 }
 
-.section-3-inside-1 h1{
+.section-3-inside-2 h1{
     font-weight: bold;
     font-size: 40px;
+    color:#343434;
 }
 
 .section-3-inside-2 p{
@@ -148,6 +149,7 @@ body{
     display: flex;
     width: 80%;
     margin:150px auto;
+    font-family: 'Lato', sans-serif;
     
 
 }
@@ -160,10 +162,55 @@ body{
     padding-left: 40%;
 }
 
+.section-4-inside h1{
+    font-size: 35px;
+}
+.section-4-inside p{
+    color:rgb(80, 75, 75);
+}
+
 
 
 
 /* ####################### */
+
+
+
+
+
+
+.section-5 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-5  h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.section-5-inside-wrap{
+    display: flex;
+}
+
+.section-5-inside{
+    width: 50%;
+}
+
+.section-5-inside img{
+    width:80%;
+}
+
+#mearn-stack{
+    font-family: 'Lato', sans-serif;
+    -webkit-box-shadow: 5px -1px 29px -2px rgba(255,46,231,0.83); 
+    box-shadow: 5px -1px 29px -2px rgba(255,46,231,0.83);
+    padding: 20px;
+}
+
+#mearn-stack p{
+    color: rgb(47, 46, 46);
+}
 
 footer{
     background-color: #0B0D17;
@@ -173,7 +220,7 @@ footer{
 footer h1{
     color:#ffff;
     text-align: center;
-    padding-top: 18px;
+    padding-top: 25px;
     font-family: 'Lobster', cursive;
     font-weight: 100;
 
@@ -190,4 +237,6 @@ footer h1{
 footer p{
     color:#3E4149;
     text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
 }
