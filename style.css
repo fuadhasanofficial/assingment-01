@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans+Condensed:wght@300&family=Playfair+Display:wght@700&family=Poppins:wght@300&display=swap');
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+.section-1{
+    display: flex;
+    width: 80%;
+    margin:0 auto;
+    margin-bottom: 50px;
+}
+
+.section-1-inside{
+    width: 50%;
+    font-family: 'Lato', sans-serif;
+}
+
+.section-1-inside h1{
+    font-size: 60px ;
+    border-left: 3px solid #FF5959;
+    border-radius: 3px;
+}
+.link-btn{
+    background-color: #FF5959;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:#ffff;
+    border-radius: 5px;
+}
+
+.scroll-massege{
+    margin-top: 50px;
+    color: rgb(78, 76, 76);
+}
+.section-1-inside img{
+    width: 80%;
+}
+
+.different-color{
+    color:#FFAD5A;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+/* ########## section-1 end */
+
+.section-2{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Source Serif 4', sans-serif;
+    background-image:url() ;
+    
+}
+   
+
+.section-2 h1{
+    text-align: center;
+    color: #13103A;
+    font-size: 40px;
+}
+
+.section-2-main-div{
+    display: flex;
+}
+
+.section-2-inside{
+    width: 32%;
+    background-color: #ddd;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.section-2-inside img{
+    width: 50%;
+  
+}
+.section-2-inside h2{
+    font-size: 28px;
+    padding-left: 7px;
+    font-family: 'Lato', sans-serif;
+}
+
+.section-2-inside p{
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+#mission-intro{
+    background-color: #EDF5F6;
+
+}
+#vission-intro{
+    background-color: #FFEEEE;
+}
+
+#goals-intro{
+    background-color: #FFF4D6;
+}
+
+
+
+/* ################### */
+
+.section-3{
+    display:flex;
+    width: 80%;
+    margin:0 auto;
+    margin-top: 150px;
+    
+
+}
+
+.section-3-inside-1, .section-3-inside-2{
+    width: 50%;
+    font-family: 'Lato', sans-serif;
+}
+
+.section-3-inside-1 img{
+    width:60%;
+}
+
+.section-3-inside-1 h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.section-3-inside-2 p{
+    color:rgb(51, 49, 49);
+}
+
+
+.section3-wrap{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ##################################### */
+
+.section-4{
+    display: flex;
+    width: 80%;
+    margin:150px auto;
+    
+
+}
+.section-4-inside{
+    width: 50%;
+  
+}
+.section-4-inside img{
+    width: 60%;
+    padding-left: 40%;
+}
+
+
+
+
+/* ####################### */
+
+footer{
+    background-color: #0B0D17;
+    height: 150px;
+}
+
+footer h1{
+    color:#ffff;
+    text-align: center;
+    padding-top: 18px;
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+
+  
+
+   
+
+  
+}
+.different-color-2{
+    color:#FF5959;
+}
+
+footer p{
+    color:#3E4149;
+    text-align: center;
+}
